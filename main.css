@@ -1,0 +1,581 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gabarito', cursive;
+}
+
+body {
+    /* background: rgb(10, 1, 42); */
+    
+  background-image: linear-gradient(rgb(7, 1, 65), rgb(6, 2, 119));
+}
+
+marquee {
+    color: rgb(25, 185, 25);
+    top: 34px;
+}
+
+/* navigation bar */
+#nav {
+    display: flex;
+    color: white;
+    box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.511);
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+
+
+.logo {
+    padding-left: 20px;
+    top: 7px;
+    position: relative;
+    font-family: 'Jost', sans-serif;
+}
+
+.logo2 {
+    color: white;
+    position: absolute;
+    right: 5%;
+
+}
+
+.logo2 ul {
+    display: flex;
+
+}
+
+.logo2 ul li {
+    list-style: none;
+}
+
+.logo2 ul li a {
+    text-decoration: none;
+    color: white;
+    margin-inline: 25px;
+    position: relative;
+    top: 12px;
+    font-size: 20px;
+    font-family: 'Jost', sans-serif;
+    cursor: pointer;
+}
+
+.logo2 ul li a:hover {
+    color: #19b919;
+    /* text-decoration: underline; */
+}
+
+.h:visited{
+    color: rgb(140, 140, 140);
+
+}
+.ab:visited{
+    color: rgb(140, 140, 140);
+}
+.k:visited{
+    color: rgb(140, 140, 140);
+}
+.c:visited{
+    color: rgb(140, 140, 140);
+}
+
+/* navigation bar end */
+
+#barr {
+    display: none;
+    color: white;
+    position: absolute;
+    right: 5%;
+}
+
+#close {
+    display: none;
+}
+
+/* sliding image */
+
+main {
+    width: 100%;
+    height: 80vh;
+    margin: auto;
+    margin-top: 0px;
+    box-shadow: 0 2px 6px 2px rgba(6, 0, 25, 0.708);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    position: absolute;
+}
+
+#rig {
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
+#lef {
+    position: absolute;
+    top: 50%;
+}
+#lef svg ,#rig svg{
+    background-color: white;
+    font-size: 23px;
+    
+}
+/* about our school potfolio */
+#potpholio{
+    display: flex;
+    
+    margin-top: 1%;
+}
+.nameofsch{
+    color: rgb(255, 253, 253);
+    text-align: center;
+    margin-left: 30px;
+}
+.nameofsch h1{
+    color:rgb(25, 185, 25) ;
+    font-size: 50px;
+    padding-top: 100px;
+    font-family: 'Jost', sans-serif;
+}
+.nameofsch button{
+   
+    border: 2px solid rgb(25, 185, 25);
+    background-color: transparent;
+    color: rgb(25, 185, 25);
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition:  .2s;
+    
+    
+}
+.nameofsch button:hover{
+    
+    background: rgb(25, 185, 25);
+    border: none;
+    color: rgb(1, 1, 52);
+    border: 2px solid rgb(25, 185, 25);
+    
+    
+}
+.nameofsch button:active{
+    background-color: rgb(0, 78, 0);
+    border: 3px solid rgb(0, 78, 0);
+}
+.picofpri img{
+    width: 100%;
+}
+/* our featers */
+#feachers {
+    display: flex;
+    padding-top: 50px;
+}
+
+.feachers2 {
+    color: white;
+    /* box-shadow: 0 2px 6px 2px black; */
+    margin-inline: 50px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    transition: all .3s;
+}
+
+.feachers2 h3 {
+    text-align: center;
+}
+
+.feachers2:hover {
+    color: rgb(13, 182, 238);
+    box-shadow: 0 2px 6px 2px rgb(13, 182, 238);
+}
+
+.feachers2 img {
+    width: 100%;
+    height: 40vh;
+    padding-bottom: 20px;
+    transition: all ease 1s;
+
+}
+
+.feachers2:hover img {
+    scale: 1.2;
+}
+
+#our h1 {
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 60px;
+    text-decoration: underline;
+}
+
+#our h1 span {
+    color: rgb(25, 185, 25);
+    text-decoration: underline;
+}
+
+/* our topper */
+#ourtop {
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 50px;
+}
+
+#ourtop h1 {
+    font-size: 60px;
+    color: white;
+    text-decoration: underline;
+}
+
+#ourtop h1 span {
+    font-size: 60px;
+    color: rgb(25, 185, 25);
+    text-decoration: underline;
+}
+
+#toper {
+    display: flex;
+    margin-top: 150px;
+}
+
+.ten {
+    box-shadow: 0 2px 6px 2px gray;
+    color: white;
+    text-align: center;
+    background: rgb(32, 32, 32);
+    padding-bottom: 30px;
+    margin-inline: 50px;
+}
+
+.ten h1 {
+    color: rgb(25, 185, 25);
+}
+
+.ten h2,
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 15px;
+    text-align:justify;
+    display: flex;
+    justify-content: center;
+}
+
+.ten img {
+    border-radius: 150px;
+    margin-top: -20%;
+    box-shadow: 0 2px 6px 2px gray;
+}
+
+/* our teachers  */
+#teach h1 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+    font-size: 60px;
+}
+
+#teach h1 span {
+    color: rgb(25, 185, 25);
+    text-decoration: underline;
+}
+
+/* .teacher {
+    text-align: center;
+    box-shadow: 0 2px 6px 2px;
+    color: white;
+    border-radius: 15px;
+    margin-inline: 37px;
+}
+
+.teacher img {
+    border-radius: 15px;
+}
+
+.teacher h2 {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+#mteacher {
+    display: flex;
+} */
+
+
+.cont{
+    display: flex;
+    margin-inline: 35px;
+}
+.container{
+    width: 250px;
+    margin-inline: 20px;
+ 
+        /* width: 230px;
+        margin-inline: 20px; */
+    
+}
+.card{
+    height: 290px;
+    width: 250px;
+    position: relative;
+    transition: all 1s linear;
+    transform-style: preserve-3d ;
+
+}
+.front,
+.back{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    font-family: 'Lobster','cursive';
+    border-radius: 20px;
+    position: absolute;
+}
+.front{
+    z-index: 2;
+    backface-visibility: hidden;
+}
+.back{
+    background: linear-gradient(#f8da61,#ff5acd);
+    z-index: 1;
+    transform: rotateY(180deg);
+}
+.container:hover .card{
+    transform: rotateY(180deg);
+}
+.container{
+    perspective: 1000px;
+}
+.card img{
+    width: 250px;
+    height: 100%;
+    border-radius: 20px;
+}
+.back {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+/*---------------------kid------------------*/
+#kid {
+    margin-top: 50px;
+    text-align: center;
+    background: url("images/sch.jpg");
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#kid h1 {
+    padding-top: 15%;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+}
+
+#kid button {
+    padding: 10px;
+    background-color: rgb(25, 185, 25);
+    color: white;
+    cursor: pointer;
+    transition: all ease 1s;
+}
+
+#kid button:hover {
+    background: red;
+    scale: 1.2;
+}
+
+/* ABOUT OUR SCHOOL */
+.abouts {
+    margin-inline: 50px;
+    margin-top: 50px;
+    width: 45%;
+    box-shadow: 0 2px 6px 2px gray;
+    background-color: rgb(25, 185, 25);
+}
+
+.abouts img {
+    width: 100%;
+    box-shadow: 0 2px 6px 2px green;
+
+}
+
+.abouts h1 {
+    color: white;
+    text-align: center;
+}
+
+.abouts p {
+    color: white;
+    text-align: center;
+}
+
+.abouts p a {
+    color: rgb(52, 52, 52);
+}
+
+#school {
+    display: flex;
+}
+
+/* functions */
+#function{
+    display: flex;
+}
+#fun {
+    text-align: center;
+
+}
+
+#fun h1 {
+    color: white;
+    font-size: 60px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-decoration: underline;
+}
+
+#fun h1 span {
+    color: rgb(25, 185, 25);
+    text-decoration: underline;
+}
+
+.funct1 {
+    text-align: center;
+    color: white;
+    box-shadow: 0 2px 6px 2px rgba(0, 2, 37, 0.668);
+    width: 18%;
+    margin-inline: 20px;
+    overflow: hidden;
+    transition: .3s;
+}
+.funct1:hover{
+    
+    box-shadow: 0 2px 6px 2px rgb(0, 178, 214);
+}
+.funct1 h1 span{
+    color: rgb(25, 185, 25); 
+
+}
+.funct1 img {
+    width: 100%;
+    transition: all ease 1s;
+}
+.funct1 img:hover{
+    scale: 1.1;     
+}
+/* inside school */
+#ischool h1{
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    text-decoration: underline;
+}
+#ischool h1 span{
+    color: rgb(25, 185, 25);
+    text-decoration: underline;
+}
+.insides{
+    color: white;
+    margin-inline: 20px;
+}
+#inside{
+    border: 2px solid rgba(117, 117, 117, 0.374);
+    box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.484);
+    display: flex;
+    color: white;
+    margin-inline: 20px;
+    margin-bottom: 50px;
+}
+.heading h1{
+    text-align: center;
+    padding-top: 40px;
+}
+#inside img{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/* footer */
+#footer{
+    box-shadow: 0 2px 6px 2px rgba(255, 255, 255, 0.31);
+    background: black;
+    display: flex;
+}
+.contact{
+    color: white;
+    margin-left: 100px;
+    margin-inline: 150px;
+    margin-top: 15px;
+}
+.contact h1{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 11px;
+    text-align: center;
+}
+.contact h2{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.contact h3{
+    padding-bottom: 5px;
+}
+.map{
+    padding-right: 30px;
+}
+.map h1{
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.map h2 iframe{
+    /* width: 100%; */
+    height: 40vh;
+}
+
+
+
+/* --------------Designing for scroll-bar-------------- */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+::-webkit-scrollbar-track {
+    background: rgb(8, 1, 60);
+    border-radius:100px;
+}
+/* ::-webkit-scrollbar{
+    width: 10px;
+    /* background-color: #f8da61; */
+   
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(0, 164, 0);
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(1, 122, 17);
+}

@@ -1,0 +1,212 @@
+@media (max-width:799px) {
+   .logo2 ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    right: -350px;
+    height: 100vh ;
+    width: 200px;
+    background-color: #a8b6f7;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    padding: 80px 0 0 10px;
+    transition: 0.5s;
+}
+.logo2 ul.active{
+    right: 0px;
+}
+.logo2 ul li a{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+.logo2 ul li{
+    padding: 20px;
+}
+#barr{
+    display: flex;
+}
+#close{
+    display: flex;
+}
+/* sliding image */
+main {
+    width: 100%;
+    height: 200px;
+}
+.feachers2 img{
+    height: 30vh;
+}
+#feachers{
+    display: flex;
+    flex-direction: column;
+}
+/*  */
+#potpholio{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10%;
+}
+.picofpri img{
+    width: 90%;
+}
+.nameofsch h1{
+    font-size: 20px;
+    padding-top: 20px;
+}
+/* our topper */
+#our h1{
+    font-size: 40px;
+}
+#ourtop h1{
+    font-size: 40px;
+}
+#ourtop h1 span{
+    font-size: 40px;
+    text-decoration: underline;
+}
+.ten img{
+    width: 50%;
+    margin-top: -25%;
+}
+.ten{
+    box-shadow: 0 2px 6px 2px gray;
+    color: white ;
+    width: 90%;
+    text-align: center;
+    background: rgb(32, 32, 32);
+    padding-bottom: 30px;
+    margin-inline: 20px;
+}
+#toper{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+#ten1{
+    margin-bottom: 150px;
+}
+/*  */
+#teach h1{
+    font-size: 40px; 
+}
+.teacher img{
+    width: 100%;
+}
+.teacher{
+    margin-bottom: 15px;
+}
+#mteacher{
+    display: flex;
+    flex-direction: column;
+}
+/*  */
+#kid{
+    background: url("images/img1.jpg");
+    margin-top: 20px;
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#kid h1{
+    font-size: 40px;
+}
+/* ABOUT OUR SCHOOL */
+.abouts{
+    margin-inline: 20px;
+    width: 90%;
+}
+.abouts h1{
+    font-size: 20px;
+}
+#school{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* function */
+#fun h1 {
+padding-bottom: 0px;
+}
+#function{
+    display: flex;
+    flex-wrap: wrap;
+}
+.funct1{
+    width: 90%;
+    margin-top: 30px;
+}
+/* inside school */
+#inside{
+    display: flex;
+    flex-wrap: wrap;
+}
+#ischool h1{
+    font-size: 40px;
+}
+#inside img{
+    padding-bottom: 0px;
+    width: 100%;
+}
+.heading h1{
+    padding-top: 10px;
+
+}
+.heading p{
+     text-align: center;
+}
+
+/* footer */
+#footer{
+    
+    /* display: flex; */
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contact{
+    margin-left: 10px;
+    margin-inline: 0px;
+}
+.contact h1{
+    font-size: 30px;
+}
+.contact h2{
+    font-size: 15px;
+}
+.contact h3{
+    font-size: 12px;
+}
+.map{
+    text-align: center;
+    margin-inline: 30px;
+}
+.map h2 iframe{
+    width: 100%;
+    height: 30vh;
+}
+/* kids of next html */
+
+/*  */
+#mainform{
+    /* display: flex; */
+    text-align: center;
+    
+    flex-direction: column;
+    margin-inline: 0px;
+}
+#formm{
+    width: 100%;
+}
+#formm .f{
+    margin-inline: 20px;
+}
+.cont{
+    flex-wrap: wrap;
+  }
+  .card{
+    margin-bottom: 10px;
+  }
+}

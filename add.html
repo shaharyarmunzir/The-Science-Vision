@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>TSV</title>
+    <link rel="icon" href="images/tsv logo.jpeg" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            /* background-image: url("images/4.jpg"); */
+            background: linear-gradient(90deg, #141e30 0%, #243b55 100%);
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        header {
+            background-color:transparent;
+            padding: 10px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+      backdrop-filter: blur(8px);
+        }
+
+        .logo img {
+            /* max-width: 100%; */
+            width: 9%;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        .stitle {
+            margin-top: 10px;
+        }
+
+        .address {
+            font-size: 14px;
+        }
+
+        .link-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 50px;
+            margin-bottom: 80px;
+            width: 100%;
+        }
+
+        .link-box {
+            width: 200px;
+            height: 120px;
+            background-color: #3498db;
+            border: 2px solid #2980b9;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-align: center;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .link-box:hover {
+            background-color: #2980b9;
+            transform: scale(1.05);
+            animation: bounce 0.6s ease;
+        }
+
+        .link-box a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            font-size: 20px;
+            margin-bottom: 8px;
+        }
+
+        .link-box p {
+            margin: 0;
+            font-size: 16px;
+            opacity: 0.9;
+            font-weight: bold;
+            
+        }
+
+        @media screen and (max-width: 600px) {
+            .link-box {
+                width: calc(50% - 20px);
+                margin-bottom: 20px;
+            }
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-20px);
+            }
+            60% {
+                transform: translateY(-10px);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="images/tsv logo.jpeg" alt="Logo Image">
+        </div>
+        <div class="stitle">
+            <h2>The Science Vision</h2>
+            <h3>(College Road Madhupur Opposite Badi Anchi Devi high School)</h3>
+            <div class="address">
+                <p>P.O.:Madhupur, Dist:Deoghar(J.H.), Ph:03434-34343, Mob:9849633811 <br>E-mail:
+                    thesciencevision@gmail.com</p>
+            </div>
+        </div>
+    </header>
+    <div class="link-container">
+        <a href="addAttendance.php" class="link-box">
+            <div>
+                <p>Give Attendance to Student</p>
+            </div>
+        </a>
+        <a href="fetchingresult.php" class="link-box">
+            <div>
+                <p>Give Marks Of Student's</p>
+            </div>
+        </a>
+        <a href="boardnotice.php" class="link-box">
+            <div>
+                <p>Edit Notice</p>
+            </div>
+        </a>
+        <a href="studenttopperedit.php" class="link-box">
+            <div>
+                <p>Add/Edit Gallary Photo</p>
+            </div>
+        </a>
+        <a href="admitionForm.php" class="link-box">
+            <div>
+                <p>View Admission Form</p>
+            </div>
+        </a>
+        <a href="addteacherattendance.php" class="link-box">
+            <div>
+                <p>Give Attendance to Teacher</p>
+            </div>
+        </a>
+        <a href="addingteacher.php" class="link-box">
+            <div>
+                <p>Teacher's Registation</p>
+            </div>
+        </a>
+        <a href="addattan_marks_form.html" class="link-box">
+            <div>
+                <p>Student's Registation</p>
+            </div>
+        </a>
+    </div>
+</body>
+
+</html>

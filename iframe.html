@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TSV</title>
+  <link rel="icon" href="images/tsv logo.jpeg" type="image/x-icon">
+</head>
+<style>
+        body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+      background: rgb(28, 17, 61);
+    }
+
+    h1 {
+      color: rgb(67, 214, 34);
+    }
+
+    .iframe-container {
+      margin-bottom: 20px;
+      display: inline-block;
+      width: 48%;
+      box-sizing: border-box;
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 0.8s ease-out forwards;
+    }
+
+    iframe {
+      border: 2px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 100%;
+    }
+
+    @media (max-width: 600px) {
+      .iframe-container {
+        width: 100%;
+      }
+    }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    a{
+        text-decoration: none;
+        padding: 10px;
+        background-color: red;
+        color: white;
+        border-radius: 5px;
+        border: 2px solid black;
+    }
+  </style>
+<body>
+
+  <h1>Our Video Lecture</h1>
+
+  <div class="iframe-container">
+    <iframe src="https://www.youtube.com/embed/9k_K8j82yYU?si=aUEdOZv-6UyxNs-H" width="400" height="300" frameborder="0"></iframe>
+  </div>
+
+  <div class="iframe-container">
+    <iframe src="https://www.youtube.com/embed/Lp1SxaSB9AU?si=p_5TR-uZkkxBsKKE" width="400" height="300" frameborder="0"></iframe>
+  </div>
+
+  <div class="iframe-container">
+    <iframe src="https://www.youtube.com/embed/CFxAyep43y8?si=kLvJWpG9cMN_qr_O" width="400" height="300" frameborder="0"></iframe>
+  </div>
+
+  <div class="iframe-container">
+    <iframe src="https://www.youtube.com/embed/0pNhJ94d6ms?si=ptMzaY2WJIHOPPzR" width="400" height="300" frameborder="0"></iframe>
+  </div>
+  <br><a href="https://www.youtube.com/@thesciencevision5460/videos">More...</a>
+
+</body>
+</html>
